@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- <link rel="shortcut icon" type="image/png" href="./assets/img/site-favicon.png" /> -->
+    <link rel="stylesheet" href="./assets/rscss/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/slicks/slicks/slick.css">
+    <link rel="stylesheet" href="./assets/slicks/slicks/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="form-outline mb-4 format-form1">
+        <label class="form-label" for="form4Example1">Compose e-mail message.</label>
+        <label class="form-label" for="form4Example1" style="cursor: pointer ;" id="2">Help</label>
+    </div>
+    <div class="container-content" id="1">
+        <form>
+            <!-- Name input -->
+            <div class="form-outline mb-4 format-form">
+                <label class="form-label" for="form4Example1">To: </label>
+                <input required type="text" id="form4Example1" class="form-control" />
+            </div>
+            <div class="form-outline mb-4 format-form">
+                <label class="form-label" for="form4Example1">From :</label>
+                <input required type="text" id="form4Example1" class="form-control" />
+            </div>
+            <div class="form-outline mb-4 format-form">
+                <label class="form-label" for="form4Example1">Cc: </label>
+                <input required type="text" id="form4Example1" class="form-control" />
+            </div>
+            <!-- Email input required -->
+            <div class="form-outline mb-4 format-form">
+                <label class="form-label" for="form4Example2">Subject</label>
+                <input required type="email" id="form4Example2" class="form-control" />
+            </div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4 format-form">
+                <label class="form-label" for="form4Example3">Message :</label>
+                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            </div>
+
+            <!-- Checkbox -->
+            <!-- <div class="form-check d-flex justify-content-center mb-4 format-form">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                <label class="form-check-label" for="form4Example4">
+                    Send me a copy of this message
+                </label>
+            </div> -->
+
+            <!-- Submit button -->
+            <div class="format-form3">
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                    <a href="./status.html" style="color: #fff;">Send</a>
+                </button>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <div class="container-content1" id="3" style="display: none;">
+        <p style="font-size: 22px;">-: Email Editor Help :-</p>
+        <ul>
+            <li><span style="font-weight:600 ;">To and Cc</span>
+                <p><Span style="font-weight:600 ;">To</Span> and <Span style="font-weight:600 ;">Cc</Span> boxes allow
+                    you to enter the e-mail
+                    address of the recepients to
+                    whom to
+                    message has to be
+                    send. Recepients will be able to see who else was sen be message by looking at the content of the
+                    <span style="font-weight:600 ;">To</span>
+                    and <span style="font-weight:600 ;">Cc</span> boxes.
+                </p>
+            </li>
+            <li><span style="font-weight:600 ;">Subject</span>
+                <p>The <Span style="font-weight:600 ;">Subject</Span>
+                    box allow yoy to enter mearningful summary of the message.
+                </p>
+            </li>
+            <li><span style="font-weight:600 ;">Message</span>
+                <p>The <Span style="font-weight:600 ;">Message</Span>
+                    box allow yoy to enter mearningful summary of the message.
+                </p>
+            </li>
+        </ul>
+
+        <div style="display: flex; justify-content: flex-end">
+            <Span style="cursor: pointer ; color: blue; text-decoration: underline " id="4">Close</Span>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="./assets/slicks/slicks/slick.min.js"></script>
+<script src="./js/animation.js"></script>
+<script src="./js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+        {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        }
+    )
+    wow.init();
+</script>
+
+<script src="./js/app.js"></script>
+
+</html>

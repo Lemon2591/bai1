@@ -1,0 +1,42 @@
+
+.container-content {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-content1 {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+
+
+.format-form {
+    display: flex;
+}
+.format-form1 {
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.format-form  > label {
+    font-size: 16px;
+    width: 30%;
+}
+
+.format-form  > input {
+    font-size: 14px;
+
+}
+.format-form3 {
+    margin-left: 22%;
+}
+.format-form3 > button{
+    margin: 0 5px;
+}
